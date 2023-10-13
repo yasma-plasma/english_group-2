@@ -1,0 +1,79 @@
+body{
+    background-color:#DDD0C8 ;
+}
+
+.heading{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 20px
+}
+
+.head_text{
+    display: inline;
+    font-family: Inconsolata;
+    font-size: 50px;
+    color: #323232;
+}
+
+.link{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button{
+    height: 104px;
+    background-color: #DDD0C8;
+    border: none;
+    color: #323232;
+    font-weight: bold;
+    font-family: Kanit;
+    font-size: 17px;
+    cursor: pointer;
+    transition: color 0.5s, 
+    border-bottom 0.1s;
+}
+
+.button:hover{
+    color: rgb(50, 0, 0);
+    border-bottom: solid;
+}
+
+.header_grid{
+    display: grid;
+    grid-template-columns: 5fr 90px 90px 90px 160px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.home_main{
+    font-family: Poppins;
+    font-size: 50px;
+    margin-right: 420px;
+    margin-left: 20px;
+}
+
+.home_top{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.shop_button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    font-family: Raleway;
+    margin-left: 235px;
+    cursor: pointer;
+}
+
+.about{
+    margin-right: 250px;
+    margin-bottom: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-family: Poppins;
+}
